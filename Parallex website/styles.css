@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg1{
+    background-image: url("./parallex1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+@media(max-width: 370px) {
+    .bg1{
+        background-size: cover;
+    }
+    
+}
+@media(max-width: 415px) {
+    .bg1{
+        background-size: cover;
+    }
+    
+}
+
+.bg1>h2{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 4rem;
+    font-family: sans-serif, serif;
+    font-weight: 500;
+    color: rgb(144, 111, 111);
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 4rem;
+    font-family: sans-serif, serif;
+    font-weight: 500;
+    color: rgb(144, 111, 111);
+}
+
+.text>p{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+@media(max-width: 380px){
+    .bg1, .bg2, .bg3{
+    }
+    .bg1>h2{
+        font-size: 0.9rem;
+    }
+    .text>p{
+        font-size: 1.2rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+}
+
+
+.bg2{
+    background-image: url("./parallex1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+
+
+.bg3{
+    background-image: url("./parallex3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#footer{
+    background-color: aquamarine;
+    height: 8rem;
+}
+
+#footer>p{
+
+        text-align: center;
+        position: relative;
+        top: 40%;
+        
+}
+
